@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.card{
+    padding: 2em;
+    /* background-color: red; */
+   
+    display: inline-block;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    border-radius:0.7em;
+    margin: .8em;
+    
+}
+input{
+    line-height: 1.4;
+    border-radius: 5px;
+    padding: 0.2em;
+}
+.row{
+   display: flex;
+   justify-content: space-between;
+   gap: 3px;
+   margin: 2em;
+   align-items: center;
+   justify-items: center;
+
+}
+.row .button{
+    display: flex;
+    
+}
+.login-btn{
+    padding: 2px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 8px 1px rgba(0,0,0,.2);
+}
+.shadow-round{
+    box-shadow: 3px 3px 8px 1px rgba(0,0,0,.2),  -3px -3px 8px 1px rgba(0,0,0,.2);;
+}
+
+.metrics{
+    text-align: center;
+}
+
+.bordered{
+    border: 1px black solid;
+}
+
+table{
+    padding: 1em;
+}
+
+th{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+}
+
+.btn{
+    padding: .7em;
+    border-radius: .5em;
+}
+
+.primary{
+    background-color: rgb(211, 248, 211);
+}
+
+.success{
+    background-color: orange;
+}
+.head{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.budget-details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.metric{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

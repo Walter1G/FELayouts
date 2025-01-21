@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="card shadow">
+        <div class="login">
+            <div class="row">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="row">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="row button">
+                <p>Forgot Password? <a href="#">Reset</a></p>
+                <button class="login-btn">Log In</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-round">
+        <div class="metrics">
+            <p>PROJECTS</p>
+            <p>20</p>
+        </div>
+    </div>
+
+    <div class="card shadow-round">
+        <div class="metrics">
+            <p>Budget</p>
+            <p>57,000,00.00</p>
+        </div>
+    </div>
+
+    <div class="card shadow-round">
+        <div class="metrics">
+            <p>Total Paid</p>
+            <p>34,650,000.00</p>
+        </div>
+    </div>
+
+    <div class="card shadow">
+        <table class="bordered">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Budget</th>
+                <th>Amount Spent</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                <td>Eneo</td>
+                <td>50,000,000</td>
+                <td>40,000,000</td>
+                <td>Ed/Del</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                <td>Kengeles</td>
+                <td>7,000,000</td>
+                <td>3,000,000</td>
+                <td>Ed/Del</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                <td>Kengeles</td>
+                <td>7,000,000</td>
+                <td>3,000,000</td>
+                <td>Ed/Del</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                <td>Kengeles</td>
+                <td>7,000,000</td>
+                <td>3,000,000</td>
+                <td>Ed/Del</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                <td>Kengeles</td>
+                <td>7,000,000</td>
+                <td>3,000,000</td>
+                <td>Ed/Del</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="create-project">
+        <div class="card shadow form">
+            <div class="form-header">
+                <h3>Create Form</h3>
+            </div>
+            <div class="form-content">
+                <div class="row">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div class="row">
+                    <label for="budget">Budget</label>
+                    <input type="text" name="budget" id="budget">
+                </div>
+                <div class="row">
+                    <label for="start-date">Start Date</label>
+                    <input type="date" name="start-date" id="start-date">
+                </div>
+                <div class="row">
+                    <label for="completion-date">Completion Date</label>
+                    <input type="date" name="completion-date" id="completion-date">
+                </div>
+                <div class="row buttons">
+                    <button class="btn success">Edit</button>
+                    <button class="btn primary">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="project-view">
+        <div class="budget-items">
+            <div class="shadow-round card budget-item">
+                <div class="budget-details">
+                    <h4>Kitchen</h4>
+                    <div class="metric">
+                        <div class="budget">
+                            <p class="head">Budget</p>
+                            <p>10,000</p>
+                        </div>
+                        <div class="spent">
+                            <p class="head">Paid</p>
+                            <p>7,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
