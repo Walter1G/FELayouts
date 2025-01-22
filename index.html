@@ -161,7 +161,7 @@
 <div class="card project bordered">
     <h3>ENEO</h3>
    
-        <div class="row card shadow">
+        <div class="flex row card shadow ">
             <div class="card bordered center">
                 <p class="head">Budget</p>
                 <p>50,000,000</p>
@@ -306,8 +306,13 @@
 
             <div class="row">
                 <label for="budget">Amount</label>
-                <input type="text" name="budget" id="budget">
+                <input type="text" required name="budget" id="budget">
             </div>
+            <div class="row">
+                <!-- <label for="budget">Attach Invoice</label> -->
+                <input type="file" name="budget" id="budget"  >
+            </div>
+   
             <div class="row">
                 <label for="budget">Description</label>
                 <textarea type="text-area" name="budget" id="budget" ></textarea>
@@ -365,6 +370,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 
